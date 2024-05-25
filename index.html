@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>comic</title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>   
+    </head>
+    <body>
+        <a-scene background = "color: pink">
+            <a-assets>
+                <img src = "page1.jpg" id = "p1">
+                <img src = "page2.jpg" id = "p2">
+                <img src = "page3.jpg" id = "p3">
+                <img src = "page4.jpg" id = "p4">
+                <img src = "page5.jpg" id = "p5">
+            </a-assets>
+            <a-entity layer = "src: #p1; height: 3; width: 1.9505"></a-entity>
+            <a-camera wasd-controls-enabled = "false"></a-camera>
+             
+        </a-scene>
+    </body>
+</html>
